@@ -1,0 +1,9 @@
+.btn {
+    color: #95a4b8;
+    &:hover {
+        color: #000;
+    }
+    &--playlist {
+        margin-bottom: .5rem;
+    }
+}
