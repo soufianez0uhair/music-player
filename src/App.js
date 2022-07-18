@@ -8,7 +8,7 @@ import Playlist from "./pages/Playlist";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/music-player">
       <main className="App">
         <Header />
         <Routes>
