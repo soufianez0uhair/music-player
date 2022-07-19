@@ -36,7 +36,7 @@ const initialState = {
     error: null,
 }
 
-export const fetchTracks = createAsyncThunk('tracks/fetchTracks', async (term = 'joji') => {
+export const fetchTracks = createAsyncThunk('tracks/fetchTracks', async (term = 'frank ocean') => {
     try {
         const response = await axios.get(TRACKS_API + term);
         return response.data.data;
